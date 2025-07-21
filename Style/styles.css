@@ -15,6 +15,7 @@ text-align: center;
 border-radius: 8px;
 border: none;
 background: rgb(82, 195, 3);
+cursor: pointer;
 
  }
  #hero {
@@ -45,7 +46,7 @@ text-align: center;
 opacity: 0.8;
 margin-bottom: 10px;
  }
- .title {
+ #hero .hero-Contant .title {
     color: rgb(255, 255, 255);
 font-family: Work Sans;
 font-size: 36px;
@@ -56,7 +57,7 @@ text-align: center;
 margin-bottom: 18px;
 
  }
- .decription{
+  #hero .hero-Contant .decription{
     color: rgb(255, 255, 255);
 font-family: Work Sans;
 font-size: 12px;
@@ -67,7 +68,67 @@ text-align: center;
 opacity: 0.7;
 margin-bottom: 30px;
  }
- .btn-Contant {
+ #hero .hero-Contant .btn-Contant {
     display: flex;
     justify-content: center;
  }
+ #card-box{
+   width: 882px;
+   margin: 100px auto;
+   font-family: Work Sans;
+
+ }
+ #card-box .info{
+
+
+ }
+ #card-box .title{
+   color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+
+
+ }
+ #card-box .subtitle{
+   color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+ }
+ .card-Container{
+   margin-top: 30px;
+   display: flex;
+   justify-content: space-between;
+   
+  
+ }
+ #card-box .card-img {
+   width: 250px; 
+ }
+ #card-box .card-img img{
+width: 100%; 
+ }
+ 
+ .card{
+   max-width: 250px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   justify-content: center;
+   align-items: center;
+ }
+ .shop{
+background: rgba(82, 195, 3, 0.15);
+padding: 10px 18px 10px 18px;
+border-radius: 8px;
+ }
+ 
