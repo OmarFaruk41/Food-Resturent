@@ -129,7 +129,8 @@ padding: 10px 18px 10px 18px;
 border-radius: 8px;
  }
  
- <!-- About us -->
+ /* About us */
+
 
 #about-us {
   width: 100%;
@@ -161,12 +162,14 @@ border-radius: 8px;
      
  }
  #about-us .card-img{
-   width: 633px;
+   
    
 
  }
  #about-us .card-img {
+  width: 633px;
     width: 50%;
+    margin-bottom: 40px;
  }
  #about-us .title {
    color: rgb(16, 16, 16);
@@ -214,8 +217,11 @@ opacity: 0.7;
 flex-direction: row;
 justify-content: flex-start;
 align-items: flex-start;
-gap: 32;
 padding: 0px;
 }
 
-
+#footer {
+  height: 1275px;
+  background: linear-gradient(00deg, 
+  url(../assets/social-bg.png) 101.632%);
+}
